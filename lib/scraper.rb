@@ -16,3 +16,4 @@ class Scraper
 
 end
 
+Scraper.new.scrape_index_page
