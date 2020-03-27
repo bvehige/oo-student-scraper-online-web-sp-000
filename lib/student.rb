@@ -18,6 +18,8 @@ class Student
   def add_student_attributes(attributes_hash)
     attributes_hash.each {|k, V| self.send(("#{K=}"), v)}
   end
+  self
+  end
 
   def self.all
     @@all
