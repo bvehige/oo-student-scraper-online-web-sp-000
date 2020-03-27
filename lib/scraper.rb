@@ -26,7 +26,8 @@ class Scraper
     social_icon_container.each do |link|
       if link.include?("twitter") 
         student[:twitter] = link
-      elsif link.include?  
+      elsif link.include?("linkedin")
+        student[:linkedin]
       
   end
 
