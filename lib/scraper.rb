@@ -33,6 +33,7 @@ class Scraper
       elsif link.include?(".com")
         student[:blog] = link
       end
+    end
       
       student[:profile_quote] = page.css("profile-quote").text
       student[:bio] = page.css("description-holder p").text
