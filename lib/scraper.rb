@@ -17,8 +17,6 @@ class Scraper
     students
       
   end
-Scraper.new.scrape_index_page(https://learn-co-curriculum.github.io/student-scraper-test-page/index.html)
-
 
   def self.scrape_profile_page(profile_url)
     
