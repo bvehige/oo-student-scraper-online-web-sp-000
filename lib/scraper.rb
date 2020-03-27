@@ -10,6 +10,8 @@ class Scraper
     doc = Nokogiri::HTML(html)
     binding.pry
   end
+Scraper.new.scrape_index_page(https://learn-co-curriculum.github.io/student-scraper-test-page/index.html)
+
 
   def self.scrape_profile_page(profile_url)
     
@@ -17,4 +19,3 @@ class Scraper
 
 end
 
-Scraper.new.scrape_index_page(https://learn-co-curriculum.github.io/student-scraper-test-page/index.html)
