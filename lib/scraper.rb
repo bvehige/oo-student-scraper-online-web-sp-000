@@ -5,10 +5,9 @@ require 'pry'
 class Scraper
 
   def self.scrape_index_page(index_url)
-    html = open(index_url)
-    Nokogiri::HTML(html)
-    doc = Nokogiri::HTML(html)
-    binding.pry
+    doc = Nokogiri::HTML(open(index_url))
+    students = []
+    
   end
 Scraper.new.scrape_index_page(https://learn-co-curriculum.github.io/student-scraper-test-page/index.html)
 
